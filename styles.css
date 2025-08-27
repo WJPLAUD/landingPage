@@ -1,0 +1,66 @@
+.flex-container1 {
+  height: 300x;
+  display: flex;
+  background-color: #1F2937;
+
+}
+/* this selector selects all divs inside of .flex-container */
+.flex-container1 div {
+  background-color: white;
+  border: 3px #3882F6 ;
+  border-style: solid;
+  height: 80px;
+  width: 80px;
+  margin:5px ;
+}
+
+.flex-container2 {
+  height: 100px;
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container2 div {
+  background-color: white;
+  border: 3px #3882F6 ;
+  border-style: solid;
+  height: 80px;
+  width: 80px;
+  border-radius: 10%;
+  margin:5px ;
+}
+
+.flex-container3 {
+  height: 90px;
+  display: flex;
+  text-size-adjust: 36px;
+ 
+}
+/* this selector selects all divs inside of .flex-container */
+.flex-container3 div {
+  height: 90px;
+  display: flex;
+  text-size-adjust: 36px;
+ 
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container4 {
+  background-color: #E5E7EB;
+  height: 90px;
+  display: flex;
+  text-size-adjust: 36px;
+}
+
+.flex-container4 div {
+  height: 120px;
+  display: flex;
+  text-size-adjust: 36px;
+ 
+
+  /* flex-direction: column; */
+}
